@@ -30,3 +30,17 @@ function areaLargestSquare(r) {
   return S; 
 }
 ```
+***
+## Education
+* **Kyiv Polytechnic Institute** 
+  * instrumentation faculty
+* **Code Basics** 
+  * HTML
+  * CSS
+* **Hexlet** 
+  * Git/GitHub
+  * Console
+***
+## Languages
+* **Ukrainian** - native speaker
+* **English** - B2
