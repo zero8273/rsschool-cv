@@ -1,12 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <title>My CV</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-   <h1>Hello world</h1>
+
+   <!--main container-->
+   <div class="main_conteiner">
+
+      <!--main content section-->
+      <div class="main_content_section">
+         <!--header content section-->
+         <header>
+            <nav>
+               <ul class="nav_content">
+                  <li class="nav_content_item"><a href="#About">About</a></li>
+                  <li class="nav_content_item"><a href="#Strengths">Strengths</a></li>
+                  <li class="nav_content_item"><a href="#Work">Work</a></li>
+                  <li class="nav_content_item"><a href="#Education">Education</a></li>
+               </ul>
+            </nav>
+         </header>
+         <main class="main_content_item">
+
+            <!--about me section-->
+            <div id="About" class="about_me_section">
+
+               <h2 class="about_me_profession">Future Front-End Developer</h2>
+               <h1 class="about_me_name">Sergei Samus</h1>
+
+               <p class="about_me_description">I am 27 years old. I live and work in Kyiv. My job is an
+                  engineer-technologist. I work in one company for 5 years
+                  without any growth or self-improvement. Now I want to study a new profession that evolved all the
+                  time.
+                  It motivate me
+                  to learn something new and improve my skills. I want to become a front-end developer</p>
+            </div>
+
+            <!--my strengths section-->
+            <div id="Strengths" class="my_strengths_section">
+               <h3 class="main_content_title">Strengths</h3>
+               <ol class="my_strengths_list">
+                  <li class="my_strengths_item">
+                     <span class="my_strengths_text">
+                        Learnability
+                     </span>
+                  </li>
+
+                  <li class="my_strengths_item">
+                     <span class="my_strengths_text">
+                        Communicative
+                     </span>
+                  </li>
+
+                  <li class="my_strengths_item">
+                     <span class="my_strengths_text">
+                        Purposefulness
+                     </span>
+                  </li>
+
+                  <li class="my_strengths_item">
+                     <span class="my_strengths_text">
+                        Team playing
+                     </span>
+                  </li>
+
+                  <li class="my_strengths_item">
+                     <span class="my_strengths_text">
+                        Organization
+                     </span>
+                  </li>
+               </ol>
+
+
+
+
+
+            </div>
+            <!--my work expirence section-->
+            <div id="Work" class="my_work_expirience_section">
+               <h3 class="main_content_title">Work expirience</h3>
+
+               <!--company 1 -->
+               <div class="my_work_expirience_company">
+                  <h4 class="my_work_expirience_position"> Front-End Developer <span
+                        class="orange_color">Freelance</span>
+                  </h4>
+                  <p class="time_style">September 2021 - up to now <span class="time_bracket">|</span> Ukraine</p>
+                  <ul class="my_work_experience_duties">
+                     <li><span class="my_work_experience_duti"> Layout of simple landing pages</span></li>
+                  </ul>
+
+               </div>
+
+
+               <!--company 2 -->
+               <div class="my_work_expirience_company">
+                  <h4 class="my_work_expirience_position"> Process engineer <span class="orange_color">Pyramida</span>
+                  </h4>
+                  <p class="time_style">July 2017 - Today <span class="time_bracket">|</span> Ukraine</p>
+                  <ul class="my_work_experience_duties">
+                     <li><span class="my_work_experience_duti"> Setting the order of work and a step-by-step route for
+                           processing parts and products.</span></li>
+                     <li><span class="my_work_experience_duti"> Equipment maintenance</span></li>
+                     <li><span class="my_work_experience_duti"> Development of technological devices.</span></li>
+                  </ul>
+
+               </div>
+
+            </div>
+            <!--my education section-->
+            <div id="Education" class="my_education_section">
+               <h3 class="main_content_title">Education</h3>
+               <h4 class="my_education_position"><span class="orange_color">Kyiv Polytechnic Institute</span></h4>
+               <h5 class="my_education_position_type">instrumentation faculty</h5>
+               <p class="time_style">September 2011 - June 2017 <span class="time_bracket">|</span> Ukraine</p>
+               <h4 class="my_education_position"><span class="orange_color">Code Basics</span></h4>
+               <ul>
+                  <li class="my_education_position_type">HTML</li>
+                  <li class="my_education_position_type">CSS</li>
+               </ul>
+               <h4 class="my_education_position"><span class="orange_color">Hexlet</span></h4>
+               <ul>
+                  <li class="my_education_position_type">Git/GitHub</li>
+                  <li class="my_education_position_type">Console</li>
+               </ul>
+               <h4 class="my_education_position"><span class="orange_color">Language</span></h4>
+               <ul>
+                  <li class="my_education_position_type">Ukraine - native speacer</li>
+                  <li class="my_education_position_type">English - A2</li>
+               </ul>
+            </div>
+         </main>
+         <footer class="footer_content_section">
+            <div class="github_nav_link">© 2022 <a href="https://github.com/zero8273"
+                  class="github_nav_link">zero8273</a></div>
+            <a href="https://rs.school/js/" class="rss_ico"><img src="rss-svg.svg" alt="rss"></a>
+         </footer>
+      </div>
+      <!--sidebar section-->
+      <aside class="sidebar_section">
+         <img src="photo2.jpg" alt="my photo">
+
+         <!--contacts section-->
+         <div class="contact_section">
+            <h3 class="sidebar_title"> Contacts</h3>
+
+            <div>
+               <span class="contacts_section_type"> C:</span>
+               <a class="contacts_section_link" href="tel:+77777777777">+390975662350</a>
+
+            </div>
+            <div>
+               <span class="contacts_section_type"> E: </span>
+               <a class="contacts_section_link" href="mailto:cergi8273@gmail.com">cergi8273@gmail.com</a>
+
+            </div>
+            <div>
+               <span class="contacts_section_type"> D: </span>
+               <span class="contacts_section_link">Sergeii Samus (@zero8273)</span>
+            </div>
+         </div>
+         <!--tech skills section-->
+         <div class="tech_skill_section">
+            <h3 class="sidebar_title">Tech skills</h3>
+            <ul class="tech_skill_list">
+               <li> <span class="tech_skill_item_text"> HTML5 </span> </li>
+               <li> <span class="tech_skill_item_text"> CSS3</span> </li>
+               <li> <span class="tech_skill_item_text"> GIT</span> </li>
+               <li> <span class="tech_skill_item_text"> JavaScript</span> </li>
+
+            </ul>
+         </div>
+
+         <!--soft skills section-->
+         <div class="soft_skill_section">
+            <h3 class="sidebar_title">Soft skills</h3>
+            <ul class="soft_skill_list">
+               <li> <span class="soft_skill_item_text"> Scrum</span> </li>
+               <li> <span class="soft_skill_item_text"> Kanban</span> </li>
+               <li> <span class="soft_skill_item_text">Teamwork</span> </li>
+
+            </ul>
+         </div>
+
+      </aside>
+   </div>
+
+
 </body>
+
 </html>
